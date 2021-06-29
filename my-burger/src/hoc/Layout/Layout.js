@@ -6,7 +6,7 @@ import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 class Layout extends Component {
     state = {
-        showSideDrawer: true
+        showSideDrawer: false
     }
 
     sideDrawerClosedHanlder = () => {
@@ -27,7 +27,7 @@ class Layout extends Component {
                 <main className={classes.Content}>
                      {this.props.children}
                 </main>
-             </Aux>
+            </Aux>
         )
     }
 }

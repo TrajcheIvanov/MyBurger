@@ -19,10 +19,10 @@ const sideDrawer = (props) => {
                 <div className={classes.Logo}> 
                     <Logo/>
                  </div>
-            <nav>
-                <NavigationItem/>
-            </nav>
-        </div>
+                <nav>
+                    <NavigationItem/>
+                </nav>
+            </div>
         </Aux>
     );
 };
