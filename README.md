@@ -1,1 +1,1 @@
-# MyBurger
+# MyBurger - app project for learning React
